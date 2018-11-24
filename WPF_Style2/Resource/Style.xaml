@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPF_Style2.Resource">
+    <Style x:Key="ForMainLable">
+        <Setter Property="Control.FontFamily" Value="Elephant"/>
+        <Setter Property="Control.FontSize" Value="28"/>
+        <Setter Property="Control.Margin" Value="20"/>
+        <Setter Property="Control.HorizontalAlignment" Value="Left"/>
+    </Style>
+
+    <Style TargetType="{x:Type Border}">
+        <Setter Property="Control.Margin" Value="10"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Control.Background" Value="#EBEBEB"/>
+    </Style>
+</ResourceDictionary>
